@@ -1,5 +1,6 @@
 
 import React from 'react'
+import PropTypes from 'prop-types'
 import assign from 'object-assign'
 import { Flex, Box } from 'reflexbox'
 import {

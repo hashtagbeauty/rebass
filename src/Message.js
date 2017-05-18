@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 
 import React from 'react'
 import Base from './Base'
@@ -24,7 +25,7 @@ const Message = (props, { rebass }) => {
 
 Message.propTypes = {
   /** Sets color from config */
-  theme: React.PropTypes.oneOf([
+  theme: PropTypes.oneOf([
     'primary',
     'secondary',
     'default',
@@ -42,7 +43,7 @@ Message.defaultProps = {
 }
 
 Message.contextTypes = {
-  rebass: React.PropTypes.object
+  rebass: PropTypes.object
 }
 
 export default Message

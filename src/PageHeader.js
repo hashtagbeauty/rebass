@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 
 import React from 'react'
 import Base from './Base'
@@ -47,13 +48,13 @@ const PageHeader = ({
 
 PageHeader.propTypes = {
   /** Page heading */
-  heading: React.PropTypes.string,
+  heading: PropTypes.string,
   /** Description of page */
-  description: React.PropTypes.string
+  description: PropTypes.string
 }
 
 PageHeader.contextTypes = {
-  rebass: React.PropTypes.object
+  rebass: PropTypes.object
 }
 
 export default PageHeader

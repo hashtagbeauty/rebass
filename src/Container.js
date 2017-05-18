@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 
 import React from 'react'
 import Base from './Base'
@@ -24,7 +25,7 @@ const Container = (props, { rebass }) => {
 }
 
 Container.contextTypes = {
-  rebass: React.PropTypes.object
+  rebass: PropTypes.object
 }
 
 export default Container

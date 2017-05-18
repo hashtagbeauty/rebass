@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 
 import React from 'react'
 import Base from './Base'
@@ -29,7 +30,7 @@ const Close = (props, { rebass }) => {
 }
 
 Close.contextTypes = {
-  rebass: React.PropTypes.object
+  rebass: PropTypes.object
 }
 
 export default Close

@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 
 import React from 'react'
 import Base from './Base'
@@ -26,7 +27,7 @@ const Pre = (props, { rebass }) => {
 }
 
 Pre.contextTypes = {
-  rebass: React.PropTypes.object
+  rebass: PropTypes.object
 }
 
 export default Pre

@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 
 import React from 'react'
 import Base from './Base'
@@ -55,11 +56,11 @@ const Switch = ({
 
 Switch.propTypes = {
   /** Sets the Switch to an active style */
-  checked: React.PropTypes.bool
+  checked: PropTypes.bool
 }
 
 Switch.contextTypes = {
-  rebass: React.PropTypes.object
+  rebass: PropTypes.object
 }
 
 export default Switch

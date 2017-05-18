@@ -1,5 +1,6 @@
 
 import React from 'react'
+import PropTypes from 'prop-types'
 import jsonp from 'jsonp'
 import assign from 'object-assign'
 import { Flex, Box } from 'reflexbox'
@@ -61,7 +62,7 @@ class App extends React.Component {
   }
 
   static childContextTypes = {
-    rebass: React.PropTypes.object
+    rebass: PropTypes.object
   }
 
   getChildContext () {

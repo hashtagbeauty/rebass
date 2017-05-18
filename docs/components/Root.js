@@ -42,7 +42,7 @@ class Root extends React.Component {
   }
 
   static childContextTypes = {
-    rebass: React.PropTypes.object
+    rebass: PropTypes.object
   }
 
   getChildContext () {

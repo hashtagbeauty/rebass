@@ -85,7 +85,7 @@ const PropsTable = ({ props, ...other }) => {
 }
 
 PropsTable.propTypes = {
-  props: React.PropTypes.object
+  props: PropTypes.object
 }
 
 export default PropsTable

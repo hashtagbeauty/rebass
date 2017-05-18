@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 
 import React from 'react'
 import Base from './Base'
@@ -49,9 +50,9 @@ const Banner = ({
 
 Banner.propTypes = {
   /** Horizontal alignment */
-  align: React.PropTypes.oneOf(['left', 'center', 'right']),
+  align: PropTypes.oneOf(['left', 'center', 'right']),
   /** Background image source */
-  backgroundImage: React.PropTypes.string
+  backgroundImage: PropTypes.string
 }
 
 Banner.defaultProps = {
@@ -59,7 +60,7 @@ Banner.defaultProps = {
 }
 
 Banner.contextTypes = {
-  rebass: React.PropTypes.object
+  rebass: PropTypes.object
 }
 
 export default Banner

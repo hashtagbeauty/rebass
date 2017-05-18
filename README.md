@@ -88,7 +88,7 @@ class App extends React.Component {
 }
 
 App.childContextTypes = {
-  rebass: React.PropTypes.object
+  rebass: PropTypes.object
 }
 ```
 
